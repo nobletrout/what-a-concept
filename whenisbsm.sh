@@ -42,5 +42,10 @@ if [[ $icanteven_month =~ ^-?[0-9]+$ ]]; then
 fi
 
 what_month_year_is_it_even=`date +"$icanteven_month.$what_is_a_year.whenisbsm.com" | tr '[:upper:]' '[:lower:]'`
-dig $what_month_year_is_it_even +short -t TXT
-
+bsm_is_when=$(dig $what_month_year_is_it_even +short -t TXT)
+echo $bsm_is_when
+if [[ "$bsm_is_when" =~ "Datetime: Thursday" ]]; then
+    echo "It's on thursday. All is well with world"
+else
+    echo "ERROR: WARN: REDIS UNABLE TO PARSE: NOT A THURSDAY"
+fi
