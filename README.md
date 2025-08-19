@@ -37,3 +37,4 @@ INFO must convert stupidity
 - error reporting if someone is too dumb to specify a date that a record exists for BSM or other meetup
 - NPM support
 - interactive shell support with ncurses navigating interface.
+- libFuse support to support navigating dates
