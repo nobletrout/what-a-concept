@@ -36,3 +36,4 @@ INFO must convert stupidity
 - bash script needs more robust year discovery format
 - error reporting if someone is too dumb to specify a date that a record exists for BSM or other meetup
 - NPM support
+- interactive shell support with ncurses navigating interface.
