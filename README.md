@@ -28,7 +28,7 @@ INFO must convert stupidity
 
 # TODO
 - rust support
-- pythonic support
+- ~pythonic support~
 - ruby support
 - c++ support
 - bash script needs more robust year discovery format
