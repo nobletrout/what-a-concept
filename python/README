@@ -1,0 +1,10 @@
+# Installation instructions
+Get python3 environment ready. Figure it out yourself.
+
+# Installation
+`pip3 install dnspython`
+
+# Usage
+```python
+python3 whenisbsm.py
+```
