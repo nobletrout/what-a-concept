@@ -36,3 +36,4 @@ INFO must convert stupidity
 - NPM support
 - interactive shell support with ncurses navigating interface.
 - libFuse support to support navigating dates
+- integrated support with meetup.com for registering
